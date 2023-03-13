@@ -28,7 +28,7 @@ class Window(QMainWindow):
         self.setGeometry(0, 0, 1920, 1890)
 
         self.setWindowIcon(QtGui.QIcon("icon.png"))
-
+#
         self.scroll = QScrollArea()
         self.widget = QWidget()
         self.widget.resize(1920,3000)
